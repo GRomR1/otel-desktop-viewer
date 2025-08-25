@@ -12,7 +12,6 @@ on:
 
 jobs:
   build-and-push:
-    needs: check-alpine
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
